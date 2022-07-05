@@ -1,0 +1,45 @@
+name: dsmscannercode
+description: Um leitor de QR Code e Códigos de Barras da disciplina de DSM.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  share_plus: ^4.0.3
+  image_picker: ^0.8.5
+  url_launcher: ^6.0.20
+  mobile_scanner: ^1.0.0
+  cupertino_icons: ^1.0.2
+  loading_animation_widget: ^1.1.0+3
+  syncfusion_flutter_barcodes: ^20.1.47
+  share_files_and_screenshot_widgets: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: fonts/Comfortaa-Regular.ttf
